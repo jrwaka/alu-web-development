@@ -2,53 +2,43 @@
 <html>
 	<head>
 		<title>HTML Advanced</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<header>
-		 <div>
-                        <a href="#"><img src="aa.jpg"></a>
-                        <div>
+		 <div class="logo">
+			 <a href="#"><img src="aa.jpg"></a></div>
+                        <div class="navs">
                         <a href="a.html">LINK</a>
                         <a href="b.html">LINK</a>
                         <a href="c.html">LINK</a>
                         </div>
-                        </div>
                 </header>
 			<main>
-			<section>
-				  <div>
-				    <img src="123.jpg">
-				    <div>
-				      <blockquote>QUOTE</blockquote>
-				      <p>AUTHOR</p>
-				      <p>SUB-TITLE</p>
-				    </div>
-				  </div>
-				</section>
-			<div>
-				<h1>TITLE</h1>
-				<p>This is HTML</p>
-				<button>BUTTON</button>
-				<div>
-					<h2>TITLE</h2>
-					<div>
-					  <div>
+			<section class="header-section">
+			<div class="title">
+				<h1 class="title-h1">TITLE</h1>
+				<p class="title-text">This is HTML</p>
+				<button class="button-btn">BUTTON</button>
+				<div class"pros">
+					<h2 class="pro-h2">TITLE</h2>
+					<div class="pro-block">
+					  <div class="pro-card">
 					    <img src="1.jpg">
 					    <h3>NAME</h3>
 					    <p>SUB-TITLE</p>
 					  </div>
-					  <div>
+					  <div class="pro-card">
                                             <img src="2.jpg">
                                             <h3>NAME</h3>
                                             <p>SUB-TITLE</p>
                                           </div>
-					  <div>
+					  <div class="pro-card">
                                             <img src="3.jpg">
                                             <h3>NAME</h3>
                                             <p>SUB-TITLE</p>
                                           </div>
-					  <div>
+					  <div class="pro-card">
                                             <img src="4.jpg">
                                             <h3>NAME</h3>
                                             <p>SUB-TITLE</p>
@@ -56,46 +46,107 @@
 					</div>
 				</div>
 			</div>
-				<section>
+			</section>
+			 <section class="present-section">
+                                  <div class="present-block">
+                                    <img src="123.jpg">
+                                    <div>
+                                      <blockquote>QUOTE</blockquote>
+                                      <p class="author">AUTHOR</p>
+                                      <p class="sub-title">SUB-TITLE</p>
+                                    </div>
+                                  </div>
+                                </section>
+				<section class="video-section">
 				  <h1>TITLE</h1>
-				  <div>
-				     	<div>
-					  <div>
-					     <img src="10.jpg">
-					     <h2>TITLE</h2>
-					     <p>TEXT</p>
+				  <div class="video-list">
+				     	<div class="video-card">	
+				       	<img src="10.jpg">
+					     <h2 class="video-title">TITLE</h2>
+					     <p="video-desc">TEXT</p>
 					  </div>
-					  <div>
+					  <div class="video-card">
                                              <img src="20.jpg">
-                                             <h2>TITLE</h2>
-                                             <p>TEXT</p>
+                                             <h2 class="video-title">TITLE</h2>
+                                             <p class="video-desc">TEXT</p>
                                           </div>
-					  <div>
+					  <div class="video-card">
                                              <img src="30.jpg">
-                                             <h2>TITLE</h2>
-                                             <p>TEXT</p>
+                                             <h2 class="video-title">TITLE</h2>
+                                             <p class="video-desc">TEXT</p>
                                           </div>
-					  <div>
+					  <div class="video-card">
                                              <img src="40.jpg">
-                                             <h2>TITLE</h2>
-                                             <p>TEXT</p>
+                                             <h2 class="video-title">TITLE</h2>
+                                             <p class="video-desc">TEXT</p>
                                           </div>
-					     <div>
-						 <img src="11.jpg">
-						 <h3>TITLE</h3>
+					     <div class="author">
+						 <img class="author-img"src="11.jpg">
+						 <h3 class="author-name">TITLE</h3>
 					     </div>
-					     <div>
-						 <div><img src="star1.jpg"></div>
-						 <div><img src="star2.jpg"></div>
-						 <div><img src="star3.jpg"></div>
-						 <div><img src="star4.jpg"></div>
-						 <div><img src="star5.jpg"></div>
-						 <p>TEXT</p>
+					     <div class="rate-dur">
+						 <div class="rating">
+						 <img src="star1.jpg">
+						 <img src="star2.jpg">
+						 <img src="star3.jpg">
+						 <img src="star4.jpg">
+						 <img src="star5.jpg">
+						 </div>
+						 <p class="duration-text">TEXT</p>
 					  </div>
 					</div>
 				  </div>
-				</section>
+			</section>
+			<section class="membership-section">
+			   <h1 class="second-color">TITLE</h1>
+			   <div class="membership">
+			      <div class="membership-card">
+				 <img src="100.jpg">
+				 <h2>HEADING</h2>
+				 <p>TEXT</p>
+			      </div>
+			       <div class="membership-card">
+                                 <img src="200.jpg">
+                                 <h2>HEADING</h2>
+                                 <p>TEXT</p>
+                              </div>
+			       <div class="membership-card">
+                                 <img src="300.jpg">
+                                 <h2>HEADING</h2>
+                                 <p>TEXT</p>
+                              </div>
+			       <div class="membership-card">
+                                 <img src="400.jpg">
+                                 <h2>HEADING</h2>
+                                 <p>TEXT</p>
+                              </div>
+			      <button class="button-btn">BUTTON</button>
+			   </div>
+			</section>
+			<section class="faq-section">
+			  <h1>TITLE</h1>
+			    <div ="faq-list">
+			       <div class="faq-item">
+				 <h2>HEADING</h2>
+				 <p>TEXT</p>
+			       </div>
+			    <div class="faq-item">
+				<h2>HEADING</h2>
+                                 <p>TEXT</p>
+			    </div>
+			  </div>
 			</section>
 			</main>
+			<footer>
+			  <div class="foot-container">
+			    <div class="nav-foot">
+			       <img src ="1000.jpg">
+			       <div>
+				  <a href=#><img src="2000.jpg"></a>
+			       </div>
+			    </div>
+			    <p>TEXT</p>
+			  </div>
+			</footer>
 	</body>
 </html>
