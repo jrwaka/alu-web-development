@@ -1,0 +1,18 @@
+body{
+    font-family:"Source Sans Pro";
+    font-style:normal;
+}
+header{
+    display: flex;
+    flex: auto;
+    background-image:url("./imgs/banner.png");
+    flex-direction: row;
+    padding: 2% 5% 2% 5%;
+    filter:grayscale(100%);
+    position:absolute;
+    left:-0.025%;
+    right:-0.025%;
+    top: 0%;
+    bottom: -26.48%;
+}
+
